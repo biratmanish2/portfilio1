@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80;
+    margin: auto;
+}
+.navbar{
+
+    width: 100%;
+    padding: 15px 0;
+    background: crimson;
+    font-size: 'Ubuntu',sans-serif;
+    
+    
+}
+.navbar .max-width{
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .logo a span{
+    color:green;
+}
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color: green;
+}
+.home{
+    display: flex;
+   background-color:gray;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    font-size: 'Ubuntu',sans-serif;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+}
+.home .home-content .text-2 span{
+    color: red;
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3 {
+   
+    font-weight: 500px;
+}
+
